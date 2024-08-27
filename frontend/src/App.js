@@ -17,7 +17,7 @@ function App() {
     formData.append('resume', resume);
 
     try {
-      const res = await axios.post('http://localhost:5000/api/upload', formData);
+      const res = await axios.post('https://kudosware-internship.onrender.com/api/upload', formData);
       alert('Resume uploaded successfully');
     } catch (error) {
       alert('Failed to upload resume');
