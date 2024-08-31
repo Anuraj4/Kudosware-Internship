@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   const [firstName, setFirstName] = useState('');
@@ -25,6 +26,8 @@ function App() {
   };
 
   return (
+    <>
+    <Navbar />
     <div className="App">
       <h1>Resume form submission</h1>
       <form onSubmit={handleSubmit}>
@@ -35,6 +38,7 @@ function App() {
         <button type="submit">Submit</button>
       </form>
     </div>
+    </>
   );
 }
 
