@@ -2,7 +2,6 @@
 
 Welcome to **SubmitCV App**! This is a simple and intuitive application that allows users to upload their resumes directly through a web form. The uploaded resumes are securely stored in a MongoDB database in binary format and can be downloaded later as PDF files.
 
-![SubmitCV Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SubmitCV.svg/1024px-SubmitCV.svg.png)
 
 ## 🌟 Features
 
